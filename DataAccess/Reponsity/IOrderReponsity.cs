@@ -9,9 +9,12 @@ namespace DataAccess.Reponsity
 {
     public interface IOrderReponsity
     {
-        IEnumerable<Order> GetAll();
+        IEnumerable<Order> GetAll(); 
+        IEnumerable<Order> GetReport(DateTime startDate, DateTime endDate);
         void Add(Order order);
         void Delete(Order order);
         void Update(Order order);
+
+
     }
 }

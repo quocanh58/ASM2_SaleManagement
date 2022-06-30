@@ -40,10 +40,6 @@ namespace SaleManagementWinApp
             var mem = memberReponsity.GetAllMember().OrderByDescending(x => x.MemberId);
             try
             {
-                cbSearchCity.Text = null;
-                cbSearchCountry.Text = null;
-                txtFilterSearchBox.Clear();
-                cbFilterSearchBy.Text = null;
 
                 source = new BindingSource();
                 source.DataSource = mem;
@@ -177,9 +173,6 @@ namespace SaleManagementWinApp
 
         public void LoadMemberListSearch()
         {
-            cbSearchCity.Text = null;
-            cbSearchCountry.Text = null;
-
 
         }
 

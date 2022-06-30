@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Data;
 using System.Text.Json;
 using System.IO;
+using BussinessObject.Models;
 
 namespace DataAccess
 {
@@ -18,7 +19,7 @@ namespace DataAccess
 
             var account = JsonSerializer.Deserialize<Account>(json);
 
-            string role = "User";
+            string role = "";
 
             if (account != null)
             {
@@ -28,15 +29,24 @@ namespace DataAccess
                     {
                         role = account.Role;
                     }
+                    else
+                    {
+                        Member member = new Member();
+                        member = MemberDAO.Instance.CheckLogin(Email, Password);
+                        if (member != null)
+                        {
+                            role = "User";
+                        }
+                    }
                 }
                 catch (Exception ex)
                 {
-                    throw new Exception(ex.Message);
+                    throw new Exception("Wrong email or password" + ex.Message);
                 }
             }
             else
             {
-                throw new Exception("Login failed...."); 
+                throw new Exception("Login failed....");
             }
             return role;
         }

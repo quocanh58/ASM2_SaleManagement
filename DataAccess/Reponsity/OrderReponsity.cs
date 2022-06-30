@@ -15,6 +15,8 @@ namespace DataAccess.Reponsity
 
         IEnumerable<Order> IOrderReponsity.GetAll() => OrderDAO.Instance.GetAllOrder();
 
+        IEnumerable<Order> IOrderReponsity.GetReport(DateTime startDate, DateTime endDate) => OrderDAO.Instance.GetReport(startDate, endDate);
+
         void IOrderReponsity.Update(Order order) => OrderDAO.Instance.Update(order);
     }
 }

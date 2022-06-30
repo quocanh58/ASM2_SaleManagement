@@ -155,7 +155,18 @@ namespace SaleManagementWinApp
 
         private void btnNew_Click(object sender, EventArgs e)
         {
+            InsertOrderDetailForm insertOrderForm = new InsertOrderDetailForm
+            {
+                Text = "Add Member",
+                InsertOrUpdate = false,
+                orderDetailsReponsity = orderDetailsReponsity
+            };
 
+            if (insertOrderForm.ShowDialog() == DialogResult.OK)
+            {
+                LoadLisOrderDetails(orderDetailsReponsity.GetAll());
+                source.Position = source.Count - 1;
+            }
         }
     }
 }

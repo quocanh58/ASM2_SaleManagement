@@ -112,5 +112,19 @@ namespace DataAccess
                 throw new Exception(ex.Message);
             }
         }
+
+        public IEnumerable<Order> GetReport(DateTime start, DateTime end)
+        {
+            try
+            {
+                FStoreManagementDBContext fStoreDBContext = new FStoreManagementDBContext();
+                var list = fStoreDBContext.Orders.Where(order => order.OrderDate >= start && order.OrderDate <= end);
+                return list;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
     }
 }

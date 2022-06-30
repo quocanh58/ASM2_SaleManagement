@@ -90,5 +90,26 @@ namespace DataAccess
                 throw new Exception("Error delete member " + ex.Message);
             }
         }
+
+        public decimal TotalOfOrderDetail(int orderId)
+        {
+            decimal total = 0;
+            try
+            {
+                using (FStoreManagementDBContext context = new FStoreManagementDBContext())
+                {
+                    var list = context.OrderDetails.Where(x => x.OrderId == orderId).ToList();
+                    foreach (var item in list)
+                    {
+                        total += item.UnitPrice * item.Quantity * (decimal)((100 - item.Discount) / 100);
+                    }
+                    return total;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
     }
 }

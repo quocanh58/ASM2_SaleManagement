@@ -80,22 +80,23 @@
             // btnClose
             // 
             this.btnClose.BackColor = System.Drawing.Color.Red;
-            this.btnClose.Location = new System.Drawing.Point(589, 295);
+            this.btnClose.Location = new System.Drawing.Point(552, 291);
             this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(83, 33);
+            this.btnClose.Size = new System.Drawing.Size(117, 37);
             this.btnClose.TabIndex = 29;
-            this.btnClose.Text = "Close";
+            this.btnClose.Text = "&Close";
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnDelete
             // 
             this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnDelete.Location = new System.Drawing.Point(356, 295);
+            this.btnDelete.Enabled = false;
+            this.btnDelete.Location = new System.Drawing.Point(321, 295);
             this.btnDelete.Margin = new System.Windows.Forms.Padding(4);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(83, 33);
+            this.btnDelete.Size = new System.Drawing.Size(118, 33);
             this.btnDelete.TabIndex = 28;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
@@ -104,10 +105,10 @@
             // btnNew
             // 
             this.btnNew.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnNew.Location = new System.Drawing.Point(254, 295);
+            this.btnNew.Location = new System.Drawing.Point(185, 295);
             this.btnNew.Margin = new System.Windows.Forms.Padding(4);
             this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(83, 33);
+            this.btnNew.Size = new System.Drawing.Size(118, 33);
             this.btnNew.TabIndex = 27;
             this.btnNew.Text = "New";
             this.btnNew.UseVisualStyleBackColor = false;
@@ -116,12 +117,12 @@
             // btnLoad
             // 
             this.btnLoad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnLoad.Location = new System.Drawing.Point(154, 295);
+            this.btnLoad.Location = new System.Drawing.Point(46, 295);
             this.btnLoad.Margin = new System.Windows.Forms.Padding(4);
             this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(83, 33);
+            this.btnLoad.Size = new System.Drawing.Size(118, 33);
             this.btnLoad.TabIndex = 26;
-            this.btnLoad.Text = "Load";
+            this.btnLoad.Text = "Load Order";
             this.btnLoad.UseVisualStyleBackColor = false;
             this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
             // 
@@ -275,7 +276,6 @@
             // 
             // dvgdataOrder
             // 
-            this.dvgdataOrder.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dvgdataOrder.BackgroundColor = System.Drawing.Color.Silver;
             this.dvgdataOrder.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dvgdataOrder.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -288,6 +288,7 @@
             this.dvgdataOrder.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dvgdataOrder.Size = new System.Drawing.Size(596, 235);
             this.dvgdataOrder.TabIndex = 10;
+            this.dvgdataOrder.DoubleClick += new System.EventHandler(this.dvgdataOrder_DoubleClick);
             // 
             // groupBox2
             // 
@@ -316,9 +317,9 @@
             // btnDeleteOrderDetails
             // 
             this.btnDeleteOrderDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnDeleteOrderDetails.Location = new System.Drawing.Point(1022, 291);
+            this.btnDeleteOrderDetails.Location = new System.Drawing.Point(1017, 293);
             this.btnDeleteOrderDetails.Name = "btnDeleteOrderDetails";
-            this.btnDeleteOrderDetails.Size = new System.Drawing.Size(83, 33);
+            this.btnDeleteOrderDetails.Size = new System.Drawing.Size(117, 33);
             this.btnDeleteOrderDetails.TabIndex = 43;
             this.btnDeleteOrderDetails.Text = "Delete";
             this.btnDeleteOrderDetails.UseVisualStyleBackColor = false;
@@ -326,57 +327,58 @@
             // btnNewOrderDetail
             // 
             this.btnNewOrderDetail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnNewOrderDetail.Location = new System.Drawing.Point(924, 291);
+            this.btnNewOrderDetail.Location = new System.Drawing.Point(894, 293);
             this.btnNewOrderDetail.Name = "btnNewOrderDetail";
-            this.btnNewOrderDetail.Size = new System.Drawing.Size(83, 33);
+            this.btnNewOrderDetail.Size = new System.Drawing.Size(117, 33);
             this.btnNewOrderDetail.TabIndex = 44;
             this.btnNewOrderDetail.Text = "New";
             this.btnNewOrderDetail.UseVisualStyleBackColor = false;
+            this.btnNewOrderDetail.Click += new System.EventHandler(this.btnNewOrderDetail_Click);
             // 
             // btnLoadOrderDetail
             // 
             this.btnLoadOrderDetail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnLoadOrderDetail.Location = new System.Drawing.Point(828, 291);
+            this.btnLoadOrderDetail.Location = new System.Drawing.Point(750, 293);
             this.btnLoadOrderDetail.Name = "btnLoadOrderDetail";
-            this.btnLoadOrderDetail.Size = new System.Drawing.Size(83, 33);
+            this.btnLoadOrderDetail.Size = new System.Drawing.Size(138, 33);
             this.btnLoadOrderDetail.TabIndex = 45;
-            this.btnLoadOrderDetail.Text = "Load";
+            this.btnLoadOrderDetail.Text = "Load OrderDetail";
             this.btnLoadOrderDetail.UseVisualStyleBackColor = false;
             this.btnLoadOrderDetail.Click += new System.EventHandler(this.btnLoadOrderDetail_Click);
             // 
             // txtUnitPrice
             // 
-            this.txtUnitPrice.Location = new System.Drawing.Point(828, 150);
+            this.txtUnitPrice.Location = new System.Drawing.Point(848, 150);
             this.txtUnitPrice.Name = "txtUnitPrice";
-            this.txtUnitPrice.Size = new System.Drawing.Size(268, 27);
+            this.txtUnitPrice.Size = new System.Drawing.Size(286, 27);
             this.txtUnitPrice.TabIndex = 37;
             // 
             // txtDiscount
             // 
-            this.txtDiscount.Location = new System.Drawing.Point(828, 224);
+            this.txtDiscount.Location = new System.Drawing.Point(848, 224);
             this.txtDiscount.Name = "txtDiscount";
-            this.txtDiscount.Size = new System.Drawing.Size(268, 27);
+            this.txtDiscount.Size = new System.Drawing.Size(286, 27);
             this.txtDiscount.TabIndex = 38;
             // 
             // txtProductId
             // 
-            this.txtProductId.Location = new System.Drawing.Point(828, 114);
+            this.txtProductId.Location = new System.Drawing.Point(848, 114);
             this.txtProductId.Name = "txtProductId";
-            this.txtProductId.Size = new System.Drawing.Size(268, 27);
+            this.txtProductId.Size = new System.Drawing.Size(286, 27);
             this.txtProductId.TabIndex = 39;
             // 
             // txtQuantity
             // 
-            this.txtQuantity.Location = new System.Drawing.Point(828, 189);
+            this.txtQuantity.Location = new System.Drawing.Point(848, 189);
             this.txtQuantity.Name = "txtQuantity";
-            this.txtQuantity.Size = new System.Drawing.Size(268, 27);
+            this.txtQuantity.Size = new System.Drawing.Size(286, 27);
             this.txtQuantity.TabIndex = 40;
             // 
             // txtOrderIdDetail
             // 
-            this.txtOrderIdDetail.Location = new System.Drawing.Point(828, 79);
+            this.txtOrderIdDetail.Location = new System.Drawing.Point(848, 79);
             this.txtOrderIdDetail.Name = "txtOrderIdDetail";
-            this.txtOrderIdDetail.Size = new System.Drawing.Size(268, 27);
+            this.txtOrderIdDetail.Size = new System.Drawing.Size(286, 27);
             this.txtOrderIdDetail.TabIndex = 41;
             // 
             // label2

@@ -34,7 +34,7 @@ namespace SaleManagementWinApp
                     OrderDate = DateTime.Parse(dtpOrderDate.Text),
                     RequiredDate = DateTime.Parse(dtpRequiredDate.Text),
                     ShippedDate = DateTime.Parse(dtpShippedDate.Text),
-
+                    Freight = decimal.Parse(txtFreight.Text)
                 };
                 if (InsertOrUpdate == false)
                 {
@@ -43,7 +43,6 @@ namespace SaleManagementWinApp
                 }
                 else
                 {
-
                     orderReponsity.Update(order);
                     MessageBox.Show("Update information successfully !!");
                 }
@@ -57,6 +56,7 @@ namespace SaleManagementWinApp
 
         private void InsertOrderForm_Load(object sender, EventArgs e)
         {
+            
             txtOrderID.Enabled = !InsertOrUpdate;
 
             if (InsertOrUpdate == true)

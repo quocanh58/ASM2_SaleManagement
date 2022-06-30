@@ -65,3 +65,5 @@ D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\SaleManagem
 D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\SaleManagementWinApp\obj\Debug\net6.0-windows\SaleManagementWinApp.ProductDetails.resources
 D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\SaleManagementWinApp\obj\Debug\net6.0-windows\SaleManagementWinApp.UserForm.resources
 D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\SaleManagementWinApp\obj\Debug\net6.0-windows\SaleManagementWinApp.InsertOrderForm.resources
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\SaleManagementWinApp\obj\Debug\net6.0-windows\SaleManagementWinApp.InsertOrderDetailForm.resources
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\SaleManagementWinApp\obj\Debug\net6.0-windows\SaleManagementWinApp.ReportFrom.resources

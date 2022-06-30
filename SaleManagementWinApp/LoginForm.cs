@@ -56,5 +56,14 @@ namespace SaleManagementWinApp
         {
 
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            DialogResult dr = MessageBox.Show("Are you sure EXIT ?", "Exit", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+            if (dr == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
     }
 }

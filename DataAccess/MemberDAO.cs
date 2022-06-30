@@ -96,6 +96,14 @@ namespace DataAccess
                 throw new Exception("Error delete member " + ex.Message);
             }
         }
-        
+
+        public Member CheckLogin(string email, string password)
+        {
+            FStoreManagementDBContext fStoreManagementDBContext = new FStoreManagementDBContext();
+            var check = (from member in fStoreManagementDBContext.Members
+                         where member.Email.Equals(email) && member.Password.Equals(password)
+                         select member).FirstOrDefault();
+            return check;
+        }
     }
 }

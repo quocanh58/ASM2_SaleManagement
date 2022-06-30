@@ -15,6 +15,8 @@ namespace DataAccess.Reponsity
 
         IEnumerable<OrderDetail> IOrderDetailsReponsity.GetAll() => OrderDetailsDAO.Instance.GetAllOrderDetails();
 
+        decimal IOrderDetailsReponsity.TotalOfOrderDetail(int orderId) => OrderDetailsDAO.Instance.TotalOfOrderDetail(orderId);
+
         void IOrderDetailsReponsity.Update(OrderDetail detail) => OrderDetailsDAO.Instance.Update(detail);
     }
 }

@@ -10,6 +10,7 @@ namespace DataAccess.Reponsity
     public interface IOrderDetailsReponsity
     {
         IEnumerable<OrderDetail> GetAll();
+        decimal TotalOfOrderDetail(int orderId);
         void Add(OrderDetail detail);
         void Update(OrderDetail detail);
         void Delete(OrderDetail detail);

@@ -1,0 +1,14 @@
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\BussinessObject\bin\Debug\net6.0\BussinessObject.deps.json
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\BussinessObject\bin\Debug\net6.0\BussinessObject.dll
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\BussinessObject\bin\Debug\net6.0\BussinessObject.pdb
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\BussinessObject\obj\Debug\net6.0\BussinessObject.csproj.AssemblyReference.cache
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\BussinessObject\obj\Debug\net6.0\BussinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\BussinessObject\obj\Debug\net6.0\BussinessObject.AssemblyInfoInputs.cache
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\BussinessObject\obj\Debug\net6.0\BussinessObject.AssemblyInfo.cs
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\BussinessObject\obj\Debug\net6.0\BussinessObject.csproj.CoreCompileInputs.cache
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\BussinessObject\obj\Debug\net6.0\BussinessObject.dll
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\BussinessObject\obj\Debug\net6.0\refint\BussinessObject.dll
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\BussinessObject\obj\Debug\net6.0\BussinessObject.pdb
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\BussinessObject\obj\Debug\net6.0\ref\BussinessObject.dll
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\BussinessObject\bin\Debug\net6.0\BussinessObject.runtimeconfig.json
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\BussinessObject\obj\Debug\net6.0\BussinessObject.genruntimeconfig.cache

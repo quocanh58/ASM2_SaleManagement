@@ -1,0 +1,13 @@
+{
+  "Email": "admin@fstore.com",
+  "Password": "admin@@",
+  "Role": "Admin",
+
+  "EmailUser": "user@fstore.com",
+  "PasswordUser": "user@@",
+  "RoleUser": "User",
+
+  "ConnectionString": {
+    "FptEduStoreDB": "Server=(local);uid=sa;pwd=12345;database=FptEduStore;TrustServerCertificate=True"
+  }
+}

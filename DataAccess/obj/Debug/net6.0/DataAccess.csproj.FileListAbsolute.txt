@@ -1,0 +1,15 @@
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\DataAccess\bin\Debug\net6.0\DataAccess.dll
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\DataAccess\bin\Debug\net6.0\BussinessObject.dll
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\DataAccess\bin\Debug\net6.0\BussinessObject.pdb
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\DataAccess\obj\Debug\net6.0\DataAccess.dll
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+D:\VisualStudio_SourceCode\FPT_Source C#\ASM2_Solution\Asm2_Solution\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll

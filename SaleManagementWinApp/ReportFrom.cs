@@ -38,6 +38,7 @@ namespace SaleManagementWinApp
                 foreach (var order in orderList)
                 {
                     ReportList reportLists = new ReportList();
+
                     reportList.Add(new ReportList()
                     {
                         orderID = order.OrderId,

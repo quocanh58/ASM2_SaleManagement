@@ -62,6 +62,7 @@
             // 
             // dvgDataOrderDetails
             // 
+            this.dvgDataOrderDetails.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dvgDataOrderDetails.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dvgDataOrderDetails.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dvgDataOrderDetails.Location = new System.Drawing.Point(3, 23);

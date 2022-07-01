@@ -63,6 +63,7 @@ namespace SaleManagementWinApp
 
                     MemberReponsity.Update(mem);
                     MessageBox.Show("Update information successfully !!");
+                    
                 }
 
             }

@@ -128,7 +128,7 @@ namespace DataAccess
                 {
 
                     FStoreManagementDBContext fs = new FStoreManagementDBContext();
-                    var pro = fs.Products.Where(x => x.ProductId == id);
+                    var pro = fs.Products.Where(x => x.ProductId <= id);
                     return pro;
                 }
             }
@@ -161,7 +161,7 @@ namespace DataAccess
                 using (var FStoreManagementDBContext = new FStoreManagementDBContext())
                 {
                     FStoreManagementDBContext fs = new FStoreManagementDBContext();
-                    var pro = fs.Products.Where(x => x.UnitPrice == UnitPrice);
+                    var pro = fs.Products.Where(x => x.UnitPrice <= UnitPrice);
                     return pro;
                 }
             }
@@ -177,7 +177,7 @@ namespace DataAccess
                 using (var FStoreManagementDBContext = new FStoreManagementDBContext())
                 {
                     FStoreManagementDBContext fs = new FStoreManagementDBContext();
-                    var pro = fs.Products.Where(x => x.UnitsInStock == UnitInStock);
+                    var pro = fs.Products.Where(x => x.UnitsInStock <= UnitInStock);
                     return pro;
                 }
             }

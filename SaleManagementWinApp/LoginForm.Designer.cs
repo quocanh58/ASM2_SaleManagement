@@ -53,6 +53,7 @@
             // btnClose
             // 
             this.btnClose.BackColor = System.Drawing.Color.Red;
+            this.btnClose.DialogResult = System.Windows.Forms.DialogResult.Yes;
             this.btnClose.Location = new System.Drawing.Point(299, 335);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(120, 29);

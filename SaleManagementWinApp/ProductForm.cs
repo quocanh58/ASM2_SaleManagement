@@ -30,12 +30,14 @@ namespace SaleManagementWinApp
             dvgDataProduct.CellDoubleClick += dvgDataProduct_CellDoubleClick;
         }
 
+
         private void dvgDataProduct_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             ProductDetails product = new ProductDetails()
             {
                 Text = "Update product",
-                InsertOrUpdate = true,  
+                InsertOrUpdate = true,
+                productInfo = GetProductObject(),
                 productReponsity = productReponsity
             };
             if (product.ShowDialog() == DialogResult.OK)
@@ -182,8 +184,8 @@ namespace SaleManagementWinApp
                     ProductName = txtProductName.Text,
                     CategoryId = int.Parse(txtCategoryID.Text),
                     Weight = txtWeight.Text,
-                    UnitsInStock = short.Parse(txtUnitInStock.Text),
-                    UnitPrice = decimal.Parse(txtUnitPrice.Text)
+                    UnitsInStock = int.Parse(txtUnitInStock.Text),
+                    UnitPrice = decimal.Parse(txtUnitPrice.Text) 
                 };
             }
             catch (Exception ex)
@@ -222,6 +224,10 @@ namespace SaleManagementWinApp
                 {
                     productReponsity.FilterProductById(productId);
                     LoadProductList(productReponsity.FilterProductById(productId));
+                }
+                else
+                {
+                    MessageBox.Show("Input string was not in a correct format", "Wrong input string", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
                 }
             }
             catch (Exception ex)
@@ -315,6 +321,22 @@ namespace SaleManagementWinApp
             {
 
                 throw new Exception(ex.Message);
+            }
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            ProductDetails product = new ProductDetails()
+            {
+                Text = "Update product",
+                InsertOrUpdate = true,
+                productInfo = GetProductObject(),
+                productReponsity = productReponsity
+            };
+            if (product.ShowDialog() == DialogResult.OK)
+            {
+                LoadProductList(productReponsity.GetAll());
+                source.Position = source.Position - 1;
             }
         }
     }

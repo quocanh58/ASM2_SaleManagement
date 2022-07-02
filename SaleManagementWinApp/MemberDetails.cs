@@ -34,8 +34,8 @@ namespace SaleManagementWinApp
                 txtCompanyName.Text = MemberInfo.CompanyName;
                 txtmail.Text = MemberInfo.Email;
                 txtPassword.Text = MemberInfo.Password;
-                cboCity.SelectedItem = MemberInfo.City;
-                cboCountry.SelectedItem = MemberInfo.Country;
+                cboCity.Text = MemberInfo.City;
+                cboCountry.Text = MemberInfo.Country;
             }
 
         }

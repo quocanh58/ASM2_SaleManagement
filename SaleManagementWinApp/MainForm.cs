@@ -53,5 +53,11 @@ namespace SaleManagementWinApp
             new OrderDetailsForm().Show();
             this.Hide();
         }
+
+        private void getReportToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new ReportFrom().Show();
+        }
     }
 }

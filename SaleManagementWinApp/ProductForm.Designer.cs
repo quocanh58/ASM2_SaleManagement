@@ -203,7 +203,7 @@
             this.btnLoad.Name = "btnLoad";
             this.btnLoad.Size = new System.Drawing.Size(94, 29);
             this.btnLoad.TabIndex = 13;
-            this.btnLoad.Text = "Load";
+            this.btnLoad.Text = "&Load";
             this.btnLoad.UseVisualStyleBackColor = false;
             this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
             // 
@@ -214,7 +214,7 @@
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(94, 29);
             this.btnNew.TabIndex = 14;
-            this.btnNew.Text = "New";
+            this.btnNew.Text = "&New";
             this.btnNew.UseVisualStyleBackColor = false;
             this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
@@ -225,7 +225,7 @@
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(94, 29);
             this.btnDelete.TabIndex = 15;
-            this.btnDelete.Text = "Delete";
+            this.btnDelete.Text = "&Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
@@ -236,18 +236,18 @@
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(94, 29);
             this.btnClose.TabIndex = 16;
-            this.btnClose.Text = "Close";
+            this.btnClose.Text = "&Close";
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnUpdate
             // 
             this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnUpdate.Location = new System.Drawing.Point(643, 321);
+            this.btnUpdate.Location = new System.Drawing.Point(629, 321);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(94, 29);
             this.btnUpdate.TabIndex = 17;
-            this.btnUpdate.Text = "Update";
+            this.btnUpdate.Text = "&Update";
             this.btnUpdate.UseVisualStyleBackColor = false;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
@@ -320,42 +320,46 @@
             // 
             // btnSearchID
             // 
+            this.btnSearchID.BackColor = System.Drawing.Color.Silver;
             this.btnSearchID.Location = new System.Drawing.Point(798, 95);
             this.btnSearchID.Name = "btnSearchID";
             this.btnSearchID.Size = new System.Drawing.Size(94, 29);
             this.btnSearchID.TabIndex = 20;
-            this.btnSearchID.Text = "Search";
-            this.btnSearchID.UseVisualStyleBackColor = true;
+            this.btnSearchID.Text = "&Search";
+            this.btnSearchID.UseVisualStyleBackColor = false;
             this.btnSearchID.Click += new System.EventHandler(this.btnSearchID_Click);
             // 
             // btnSearchName
             // 
+            this.btnSearchName.BackColor = System.Drawing.Color.Silver;
             this.btnSearchName.Location = new System.Drawing.Point(798, 150);
             this.btnSearchName.Name = "btnSearchName";
             this.btnSearchName.Size = new System.Drawing.Size(94, 29);
             this.btnSearchName.TabIndex = 20;
-            this.btnSearchName.Text = "Search";
-            this.btnSearchName.UseVisualStyleBackColor = true;
+            this.btnSearchName.Text = "&Search";
+            this.btnSearchName.UseVisualStyleBackColor = false;
             this.btnSearchName.Click += new System.EventHandler(this.btnSearchName_Click);
             // 
             // btnSearchUniPrice
             // 
+            this.btnSearchUniPrice.BackColor = System.Drawing.Color.Silver;
             this.btnSearchUniPrice.Location = new System.Drawing.Point(798, 204);
             this.btnSearchUniPrice.Name = "btnSearchUniPrice";
             this.btnSearchUniPrice.Size = new System.Drawing.Size(94, 29);
             this.btnSearchUniPrice.TabIndex = 20;
-            this.btnSearchUniPrice.Text = "Search";
-            this.btnSearchUniPrice.UseVisualStyleBackColor = true;
+            this.btnSearchUniPrice.Text = "&Search";
+            this.btnSearchUniPrice.UseVisualStyleBackColor = false;
             this.btnSearchUniPrice.Click += new System.EventHandler(this.btnSearchUniPrice_Click);
             // 
             // btnSearchUnitInStock
             // 
+            this.btnSearchUnitInStock.BackColor = System.Drawing.Color.Silver;
             this.btnSearchUnitInStock.Location = new System.Drawing.Point(798, 258);
             this.btnSearchUnitInStock.Name = "btnSearchUnitInStock";
             this.btnSearchUnitInStock.Size = new System.Drawing.Size(94, 29);
             this.btnSearchUnitInStock.TabIndex = 20;
-            this.btnSearchUnitInStock.Text = "Search";
-            this.btnSearchUnitInStock.UseVisualStyleBackColor = true;
+            this.btnSearchUnitInStock.Text = "&Search";
+            this.btnSearchUnitInStock.UseVisualStyleBackColor = false;
             this.btnSearchUnitInStock.Click += new System.EventHandler(this.btnSearchUnitInStock_Click);
             // 
             // txtFilterProductID
